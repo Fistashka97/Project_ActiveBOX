@@ -3,3 +3,33 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+@mixin background-img {
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+
+@mixin position-z {
+    position: relative;
+    z-index: 2;
+}
+
+@mixin h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: $_64px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $_hed-color-write;
+}
+
+@mixin btn{
+    background-color: $_btn-color;
+    height: 80px;
+    width: 370px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
