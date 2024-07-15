@@ -1,0 +1,20 @@
+.copyright {
+    padding: 23px 0 24px;
+    background-color:#2C3154 ; 
+ }
+
+ .copyright-text-wrap {
+    width: 370px;
+    margin: auto;
+    .copyright-text {
+        font-family: $_raleway;
+        font-weight: 400;
+        font-size: $_18px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #808080;
+        .copyright-text-color {
+            color: $_hed-color-write;
+        }
+    }
+ }

@@ -1,0 +1,12 @@
+.work {
+    padding-bottom: 114px;
+    @include flex-standart;
+    justify-content: space-between;
+    .images-wrap {
+        .images {
+            .images-size {
+                @include img;
+            }
+        }
+    }
+}

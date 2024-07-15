@@ -1,0 +1,43 @@
+.download {
+    padding-bottom: 114px;
+    background-color: $_hed-color-write;
+}
+
+.download-header {
+    margin: auto;
+    font-family: $_raleway;
+    font-weight: 500;
+    font-size: $_30px;
+    text-align: center;
+    color: $_hed-color-black;
+    padding-bottom: 1.25rem;
+}
+
+.text-download-wrap {
+    margin: auto;
+    padding-bottom: 2.9375rem;
+    .text-download {
+        font-family: $_raleway;
+        font-weight: 700;
+        font-size: $_18px;
+        text-transform: uppercase;
+        text-align: center;
+        color: $_hed-color-black;
+    }
+}
+
+.reference-download {
+    @include btn;
+    .download-link {
+        width: 100%;
+        height: 100%;
+        font-family: $_raleway;
+        font-weight: 900;
+        font-size: $_24px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 320%;
+        color: $_hed-color-write;
+        background-color: $_btn-color;
+    }
+}

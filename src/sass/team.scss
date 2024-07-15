@@ -1,0 +1,62 @@
+.team {
+    background-color: $_hed-color-write;
+    padding: 114px;
+}
+
+.profile-wrappers {
+    @include flex-standart;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+    .card-profile-wrap {
+        margin: 0 11px;
+        width: 270px;
+        .img-profile {
+            padding-bottom: 1.875rem;
+            img {
+                width: 270px;
+                height: 270px;
+                object-fit: cover;
+            }
+        }    
+        .profile-name {
+            font-family: $_raleway;
+            font-weight: 700;
+            font-size: $_24px;
+            text-transform: capitalize;
+            color: $_hed-color-black;
+            padding-bottom: 0.625rem; 
+        }
+        .profile-position {
+            padding-bottom: 1.125rem;
+            .profile-position-text{
+                font-family: $_raleway;
+                font-weight: 400;
+                font-size: $_18px;
+                text-transform: uppercase;
+                color: $_btn-color;
+            }
+        }
+        .profile-description {
+            padding-bottom: 2.375rem;
+            .profile-description-text {
+                font-family: $_raleway;
+                font-weight: 400;
+                font-size: $_18px;
+                color: $_text-color;
+            }
+        }
+        .sotial-wrap {
+            .icon {
+                display: inline-block;
+                text-align: center;
+                line-height: 230%;
+                width: 39px;
+                height: 39px;
+                border: 1px solid #C6CBCD;
+                color: #C6CBCD;
+            }
+        }
+
+    }
+}

@@ -3,6 +3,13 @@
 @import "_mixins.scss";
 @import "header.scss";
 @import "features.scss";
+@import "work.scss";
+@import "team.scss";
+@import "testimonials.scss";
+@import "download.scss";
+@import "footer.scss";
+@import "copyright.scss";
+
 
 * {
     margin: 0;
@@ -22,23 +29,5 @@
     margin: auto;
   }
 
-  .content {
-    margin: auto;
-    padding: 30px;
-    width: 100%;
-    // max-width: 600px;
-    box-sizing: border-box;
-  }
-  h3 {
-    background: #fff;
-    color: #3498db;
-    font-size: 36px;
-    line-height: 100px;
-    margin: 10px;
-    padding: 2%;
-    position: relative;
-    text-align: center;
-  }
-  
 
   

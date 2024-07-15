@@ -33,3 +33,26 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin  img {
+    width: 23.625rem;
+    height: 21.25rem;
+}
+
+@mixin sotial-footer-text {
+    font-family: $_raleway;
+    font-weight: 700;
+    font-size: $_18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: $_hed-color-write;
+}
+
+@mixin footer-text {
+    font-family: $_raleway;
+    font-weight: 400;
+    font-size: $_18px;
+    text-transform: capitalize;
+    text-align: center;
+    color: $_hed-color-write;   
+}
