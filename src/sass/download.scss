@@ -39,5 +39,11 @@
         line-height: 320%;
         color: $_hed-color-write;
         background-color: $_btn-color;
+        &:hover {
+            background-color: $_color-hover;
+        }
+        &:active {
+            box-shadow: 1px 1px 25px 10px rgb(255,67,67,0.8);
+        }
     }
 }

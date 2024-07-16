@@ -36,14 +36,40 @@
                 color: $_hed-color-write;
             }
         }
-    }
+    }  
 }
 
-.slick-dots li button {
-    color: aqua;
-}
+// .slick-dots li button:before {
+//     font-family: 'slick';
+//     font-size: 14px !important;
+//     line-height: 20px;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 30px;
+//     height: 30px;
+//     content: '•';
+//     text-align: center;
+//     opacity: .25;
+//     color: #965478 !important;
+//     -webkit-font-smoothing: antialiased;
+// }
 
-
+// .slick-dots li button:before {
+//     font-family: 'slick';
+//     font-size: 14px !important;
+//     line-height: 30px !important;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 20px;
+//     height: 20px;
+//     content: '•';
+//     text-align: center;
+//     opacity: .25;
+//     color: #b55087 !important;
+//     -webkit-font-smoothing: antialiased;
+// }
 
 
 
