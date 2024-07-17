@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 984px;
+        padding: 0 15px;
+        margin: auto;
+      }
+    
+    .main-headline {
+        font-size: 48px;
+ 
+    }
+    .header-text {
+        font-size: 18px;
+    }
+
+    .reference-header {
+        width: 314px;
+    }
+
+}
